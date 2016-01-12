@@ -9,42 +9,46 @@
   </head>
   <body>
     <div class="container">
-      <h1>Where did you go?!</h1>
+      <h1>Enter Address Below</h1>
       <div>
-        <form id="blanks">
+        <form id="order">
           <div class="form-group">
-            <label for="noun1">A noun</label>
-            <input id="noun1" class="form-control" type="text">
+            <label for="name">First and Last Name</label>
+            <input id="name" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="noun2">Another noun</label>
-            <input id="noun2" class="form-control" type="text">
+            <label for="street">Street Address</label>
+            <input id="street" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="verb1">A verb</label>
-            <input id="verb1" class="form-control" type="text">
+            <label for="street2">Apartment or Unit Number</label>
+            <input id="street2" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="verb2">Another verb</label>
-            <input id="verb2" class="form-control" type="text">
+            <label for="city">City</label>
+            <input id="city" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="verb3">One more verb</label>
-            <input id="verb3" class="form-control" type="text">
+            <label for="state">State</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zip">Zip</label>
+            <input id="zip" class="form-control" type="number">
           </div>
 
-          <button type="submit" class="btn">Show me the story!</button>
+          <button type="submit" class="btn">Place Order</button>
         </form>
 
       </div>
 
-      <div id="story">
-        <h1>A fantastical adventure</h1>
+      <div id="confirmation">
+        <h1>Confirm Order Address</h1>
         <p>
-          <span class="name"></span>
+          <span class="name"></span><br>
           <span class="street"></span>
-          <span class="street2"></span>
-          <span class="city"></span>, <span class="state"> <span class="zip">
+          <span class="street2"></span><br>
+          <span class="city"></span><span class="state">, </span> <span class="zip"></span>
         </p>
       </div>
     </div>
